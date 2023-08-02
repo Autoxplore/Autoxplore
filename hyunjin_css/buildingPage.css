@@ -1,4 +1,4 @@
-
+@media screen and (min-width:0px), screen and (max-height:479px) and (orientation:landscape){
 header{
     width: 100%;
     height: 3.5vh;
@@ -39,7 +39,7 @@ section{
 
 .line{
     width: 97%;
-    border-bottom: 1px solid rgb(75, 75, 75);
+    border-bottom: 0.1px solid rgb(75, 75, 75);
     margin: 5px;
     margin-bottom: 10px;
 }
@@ -54,17 +54,18 @@ section{
 select{
     width: 100%;
     height: 40px;
-    border: #EEE;
+    border: #EEE 1px solid;
     border-radius: 10px;
     padding: 10px;
     padding-left: 30px;
-    font-size: 12px;
+    font-size: 10px;
     font-weight: bold;
     margin-bottom: 0px;
     
 }
 .layout2{
     text-align: center;
+    font-size: 10px;
 }
 .layout{
     display: flex;
@@ -114,6 +115,7 @@ select{
     border: white;
     border-radius: 1px;
     text-align: start;
+    font-size: 10px;
 }
 #askConsult{
     margin-top: 50px;
@@ -138,17 +140,28 @@ footer{
     width: 50%;
     margin: 3px;
 }
-
-/*-----------------------------------------*/
 .step1_1{
     display: none;
 }
+}
+
+@media screen and (min-width:768px) ,screen and (min-height:760px) and (orientation:landscape) {
+header{
+    width: 100%;
+    height: 3.5vh;
+    background-color: rgb(67, 100, 128);
+}
+
 .layout3{
     display: flex;
     width: 100%;
     flex-direction: row;
     justify-content: space-between;
     border: 1px solid silver;
+}
+
+.step1_1{
+    display:block;
 }
 
 
@@ -161,4 +174,31 @@ footer{
 .layout4{
     display: flex;
     flex-direction: column;
+}
+#step1{
+    display: none;
+}
+.selectCategory{
+    border: 1px solid silver;
+    width: 25%;
+    font-size: 9px;
+    display: flex;
+    flex-direction: column;
+    padding-left: 20px ;
+    padding-bottom: 20px;
+    font-size: 12px;
+}
+.selectCategory>label:first-child{
+    text-align: center;
+    margin: 15px;
+    font-weight: bold;
+}
+}
+
+@media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
+    header{
+        width: 100%;
+        height: 3.5vh;
+        background-color: rgb(6, 104, 190);
+    }
 }
