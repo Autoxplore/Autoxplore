@@ -130,7 +130,14 @@ footer{
     display: none;
 }
 
-
+.place{
+    display: flex;
+    flex-direction: row;
+}
+.place1,.place2{
+    width: 50%;
+    margin: 3px;
+}
 
 /*-----------------------------------------*/
 .step1_1{
