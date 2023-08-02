@@ -26,16 +26,54 @@
         display: none;
     }
 
+    #main{
+        margin: 20px;
+        border: 1px solid silver;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    #detail{
+        padding: 15px;
+        margin: 30px;
+        border: 1px solid  rgb(237, 237, 237);
+        width: 50vw;
+        border-radius: 10px;
+        background-color: rgb(237, 237, 237);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, .7) ;
+    }
 
+    #detail section h3, h4{
+        font-size: 1rem;
+        color: gray;
+    }
 
+    #detail section p{
+        color: black;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    #detail table{
+        border: 1px solid black;
+        width: 30vw;
 
+        color: black;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    #monthPay p{
+        display: flex;
+        flex-wrap:wrap;
+    
+    }
 
 
 
     footer {
-        border: 1px solid red;
-        max-width: 100%; 
-
+        margin: 20px;
         background-color: gainsboro;
         color: black;
         display: flex;
@@ -65,6 +103,8 @@
 
 }
 
+/*    ==========================================================================   */
+
 
 
 @media screen and (min-width:768px), screen and (min-height:760px) and(orientation:landscape) {
@@ -74,60 +114,6 @@
 
 
 /*    ==========================================================================   */
-
-@media screen and (min-width:1024px) {
-    
-
-    #wrap {
-        margin: 30px;
-        padding: 20px;
-    }
-
-    header {
-        color: black;
-        text-align: center;
-        padding: 1rem;
-    }
-
-    header h1 {
-        margin-bottom: 10px;
-    }
-
-    #line {
-        height: 2px;
-        background-color: #ddd;
-        margin-top: 20px ;
-    }
-
-
-
-
-
-
-
-
-    footer {
-        background-color: gainsboro;
-        color: black;
-        display: flex;
-        padding: 1rem;
-        
-    }
-
-    footer h4 {
-        margin: 10px 40px;
-
-    }
-
-    footer ul {
-        position: relative;
-        right: -250px;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-    }
 
 
 
