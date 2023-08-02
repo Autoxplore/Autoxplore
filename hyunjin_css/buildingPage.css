@@ -1,34 +1,41 @@
 .wrap{
-
+    
 }
 
 header{
     width: 100%;
-    height: 4vh;
+    height: 3.5vh;
     background-color: aliceblue;
 }
-
 .head{
     text-align: center;
 }
-
+.head>p{
+    font-size: 10px;
+    color: rgb(163, 163, 163);
+}
 section{
-    background-color: #EEE;
-    padding: 15px;
-
+    background-color: #f3f3f3;
+    padding: 10px;
+    padding-top: 10px;
+    padding-bottom: 30px;
 }
 
 .aboutStep{
     display: flex;
     flex-direction: row;
     font-size: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .step{
     color: rgb(84, 84, 84);
+    font-size: 10px;
 }
 .stepname{
     margin: 0px 10px;
+    font-size: 10px;
     font-weight: bold;
     color: black;
 }
@@ -40,33 +47,88 @@ section{
     margin-bottom: 10px;
 }
 
-#step1{
+#step1,#step2{
+    font-size: 8px;
     display: flex;
     flex-direction: column;
-    padding-bottom: 20px;
+    padding-bottom: 10px;
 }
 
 select{
-    width: 98%;
-    height: 60px;
+    width: 100%;
+    height: 40px;
     border: #EEE;
     border-radius: 10px;
-    padding: 15px;
+    padding: 10px;
     padding-left: 30px;
-    font-size: 20px;
-    margin-bottom: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    margin-bottom: 0px;
     
 }
-
-
-#step1,#step2,@#step3{
-    width: 100%;
+.layout2{
+    text-align: center;
+}
+.layout{
+    display: flex;
+    flex-direction: row;
 }
 
-button{
+.infotype{
+    font-size: 10.5px;
+    font-weight: bold;
+    margin: 5px 0px;
+}
+.name,.phone{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    font-size: 8px;
+    color: rgb(0, 0, 0);
+    margin-top: -3px;
+    margin-bottom: 10px;
+}
+.name>div:nth-child(2), .phone>div:nth-child(2){
+    font-size: 14px;
+    font-weight: bold;
+}
 
+.contactInfo>p:nth-child(2){
+    font-size: 9px;
+    margin-top: -3PX;
+}
+.contactInfo>p:nth-child(3){
+    margin-top: -5PX;
+    color: rgb(106, 107, 107);
+    font-size: 10px
+}
+
+
+.agreeAll{
+    width: 100%;
+    font-size: 10px;
+    height: 3.5vh;
+    border-radius: 15px;
+
+}
+#ask{
+    width: 100%;
+    height: 70px;
+    border: white;
+    border-radius: 1px;
+    text-align: start;
+}
+#askConsult{
+    margin-top: 50px;
+    width: 100%;
+    height: 20%;
+    background-color: black;
+    color: white;
+    font-size: 17.5px;
+    padding: 10px;
+    border-radius: 3px;
 }
 
 footer{
-
+    display: none;
 }
