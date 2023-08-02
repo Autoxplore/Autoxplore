@@ -1,0 +1,175 @@
+@media screen and (min-width:320px) {
+
+    /* Reset some default styles */
+
+
+    body {
+        font-family: Arial, sans-serif;
+        
+    }
+
+    #wrap {
+        max-width: 1200px;
+        margin: 30px;
+        padding: 20px;
+    }
+
+    header {
+        color: black;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    header h1 {
+        margin-bottom: 10px;
+    }
+
+    #line {
+        height: 2px;
+        background-color: #ddd;
+        margin: 20px 0;
+    }
+
+    #main {
+        margin: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+    }
+
+    #profile {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        text-align: center;
+        position: relative; /* 추가 */
+        font-size: 1.3rem;
+
+    }
+
+    #profile img {
+        max-width: 100px;
+        border-radius: 50%;
+        margin: 10px;
+    }
+
+    #profile h3 {
+        margin-bottom: 5px;
+    }
+
+    #profile p {
+        position: absolute;
+        top: 40px;
+        left: 130px;
+    }
+
+
+    #setting {
+        width: 35px;
+        height: 35px;
+        position: relative;
+        top: 10px;
+        left: 10px;
+    }
+
+
+    #mySale{
+
+        flex:20%;
+        width: 50%;
+        margin-top: 50px;
+        font-size: 1.3rem;
+    }
+
+
+
+
+    #estimate {
+        margin-top: 50px;
+        flex:65%;
+        font-size: 1.3rem;
+
+    }
+
+
+    #estimate ul {
+        list-style: none;
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0px;
+        padding: 0px;
+
+
+    }
+
+   
+
+
+
+    #estimate ul li {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        margin: 25px; 
+    }
+
+    #estimate img{
+        max-width: 300px; /* 이미지 최대 너비 설정 */
+        height: auto; /* 높이 자동 조정 */
+
+    }
+
+    #estimate a{
+        display: flex;
+        justify-content: center;
+        text-decoration: none;
+    }
+
+
+
+
+
+
+
+
+    footer {
+        background-color: gainsboro;
+        color: black;
+        display: flex;
+        padding: 1rem;
+        
+    }
+
+    footer h4 {
+        margin: 10px 40px;
+
+    }
+
+    footer ul {
+        position: relative;
+        right: -250px;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    footer ul li a img {
+        max-width: 30px;
+      
+    }
+
+}
+
+
+
+@media screen and (min-width:768px), screen and (min-height:760px) and(orientation:landscape) {
+
+}
+
+
+@media screen and (min-width:1024px) {
+
+
+}
