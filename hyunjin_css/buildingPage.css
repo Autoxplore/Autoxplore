@@ -1,6 +1,3 @@
-.wrap{
-    
-}
 
 header{
     width: 100%;
@@ -131,4 +128,30 @@ select{
 
 footer{
     display: none;
+}
+
+
+
+/*-----------------------------------------*/
+.step1_1{
+    display: none;
+}
+.layout3{
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+    justify-content: space-between;
+    border: 1px solid silver;
+}
+
+
+.selectName1{
+    border: 1px solid silver;
+    width: 25%;
+    text-align: center;
+    font-size: 9px;
+}
+.layout4{
+    display: flex;
+    flex-direction: column;
 }
