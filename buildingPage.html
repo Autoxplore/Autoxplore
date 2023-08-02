@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="hyunjin_css/buildingPage.css" />
+  </head>
+  <body>
+    <div class="wrap">
+      <header>임시 헤더 입니다.</header>
+
+      <div class="head">
+        <h1>구매 상담 신청</h1>
+        <p>전담 상담원으로부터 차량 구매에 관한 모든 정보를 안내받아보세요.</p>
+      </div>
+
+      <section>
+        <div id="step1">
+          <div class="aboutStep">
+            <div class="step">Step1</div>
+            <div class="stepname">차량 선택</div>
+          </div>
+          <div class="line"></div>
+          <label class="selectName">카테고리 선택</label>
+          <select name="category">
+            <option value="">카테고리</option>
+            <option value="승용" selected="selected">승용</option>
+            <option value="RV">RV</option>
+            <option value="버스,상용">버스&상용</option>
+          </select>
+
+          <label class="selectName">브랜드 선택</label>
+          <select name="brand">
+            <option value="">브랜드</option>
+            <option value="승용" selected="selected">현대</option>
+            <option value="RV" selected="selected">기아</option>
+            <option value="택시,상용">쉐보레</option>
+          </select>
+
+          <label class="selectName">모델 선택</label>
+          <select name="category">
+            <option value="">모델</option>
+            <option value="K3 GT" selected="selected">K3 GT</option>
+            <option value="EV6">EV6</option>
+            <option value="니로 EV">니로 EV</option>
+          </select>
+
+          <label class="selectName">엔진 선택</label>
+          <select name="category">
+            <option value="">엔진 선택</option>
+            <option value="GT DCT" selected="selected">GT DCT</option>
+          </select>
+        </div>
+
+        <div id="step2">
+          <div class="aboutStep">
+            <div class="step">Step2</div>
+            <div class="stepname">판매 네트워크 선택</div>
+          </div>
+
+          <div class="line"></div>
+          <label class="selectName">영업점명 또는 도로명 주소 검색</label>
+          <select name="category">
+            <option value="용산" selected="selected">AutoXPlore 용산점</option>
+            <option value="용산" selected="selected">AutoXPlore 송파점</option>
+            <option value="용산" selected="selected">AutoXPlore 강동점</option>
+            <option value="용산" selected="selected">AutoXPlore 강서점</option>
+            <option value="용산" selected="selected">AutoXPlore 강남점</option>
+          </select>
+        </div>
+
+        <div id="step3">
+          <div class="aboutStep">
+            <div class="step">Step3</div>
+            <div class="stepname">개인 정보 확인 및 활용 동의</div>
+          </div>
+          <div class="line"></div>
+
+          <div class="contactInfo">
+            <div class="infotype">연락처 정보</div>
+            <div class="name">
+              <div class="contact1">이름</div>
+              <div class="contact2">김새싹</div>
+            </div>
+            <div class="phone">
+              <div class="contact1">연락처</div>
+              <div class="contact2">010-1234-5678</div>
+            </div>
+          </div>
+
+          <div class="contactInfo">
+            <div class="infotype">개인정보 수집 이용 및 제공 동의</div>
+            <p>
+              개인정보보호법, 신용정보 이용 및 보호에 관한 법률 규정에 따라
+              개인정보의 수집 · 이용 및 제공 동의가 필요합니다. 동의를 거부하실
+              수 있으나, 거부 시 서비스를 제공받으실 수 없습니다.
+            </p>
+            <button id="agree">전체 동의</button>
+          </div>
+
+          <div class="contactInfo">
+            <div class="infotype">추가 요청 사항(선택)</div>
+            <input
+              id="ask"
+              placeholder="추가적으로 요청할 사항을 적어주세요(선택)"
+            />
+          </div>
+
+          <button id="askConsult">상담요청</button>
+        </div>
+      </section>
+
+      <footer>Copyright ⓒ Reserved</footer>
+    </div>
+  </body>
+</html>
