@@ -107,7 +107,7 @@
         background-color: black;
         color: white;
         font-size: 0.8rem;
-        padding: 1.5vhㅇ 2vw;
+        padding: 1.5vh 2vw;
     }
 
     /* 컬러 표 */
@@ -381,8 +381,49 @@
         margin-left: 2vw;
         font-size: 0.9rem;
     }
+
+    /* 드라이빙 */
+    article.driving {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #EEEEEE;
+        padding: 5% 0%;
+    }
+
+    div.drivingWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
+
+    div.drivingWrap ul li{
+        display: inline-block;
+        width: 26%;
+        margin: 0 0 0 2%;
+        list-style: none;
+    }
+
+    div.drivingWrap ul li img{
+        width: 100%;
+    }
 }
 
 @media screen and (min-width:1024px){
+    div.drivingWrap{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        width: 80%;
+    }
 
+    div.drivingWrap ul li{
+        display: inline-block;
+        width: 28%;
+        margin: 0 0 0 3%;
+        list-style: none;
+    }
 }
