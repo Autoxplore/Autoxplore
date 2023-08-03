@@ -402,6 +402,41 @@
     .optionCar{
         width: 40%;
     }
+     /* footer 섹션 */
+     footer{
+        height: 10%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 3vw;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
 }
 
 @media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
@@ -430,8 +465,9 @@
     }
      /* footer 섹션 */
      footer{
+        display: flex;
         background-color: rgb(0, 0, 0);
-        padding: 3vw;
+        padding: 1vw;
     }
     
     footer img{
