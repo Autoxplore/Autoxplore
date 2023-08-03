@@ -33,7 +33,6 @@ screen and (min-height:1024px) and (orientation:landscape){
     
     .logo{
         width: 10rem;
-        /* float: center; */
         margin: 0 auto;
     }
     
@@ -46,6 +45,7 @@ screen and (min-height:1024px) and (orientation:landscape){
     nav li a{
         text-decoration: none;
         color: #333; 
+        text-shadow: horizontal-offset vertical-offset blur-radius color;
     }
 
     /* 검색창 */
@@ -61,9 +61,9 @@ screen and (min-height:1024px) and (orientation:landscape){
     }
 
     .search input[type="button"]{
-        width: 2vw;
-        height: 2vh;
-        margin-left: 1vw;
+        width: 30px;
+        height: 35px;
+        margin-left: 5px;
     }
 
     /* best 섹션 */
@@ -94,14 +94,14 @@ screen and (min-height:1024px) and (orientation:landscape){
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        background-color: antiquewhite;
+        margin: 3%;
     }
 
     .car1{
-        width: 15vw;
-        background-color: silver;
-        border: 1px solid black;
-        border-radius: 5%;
+        width: 20vw;
+        background-color: rgba(192, 192, 192, 0.523);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
         padding: 2vw;
     }
 
@@ -112,7 +112,6 @@ screen and (min-height:1024px) and (orientation:landscape){
     }
 
     .cartop p{
-        background-color: black;
         color: white;
         border : 1px solid white;
         border-radius: 30%;
@@ -121,8 +120,166 @@ screen and (min-height:1024px) and (orientation:landscape){
         position: relative;
     }
 
-    .carContent{
-        
+    .carImg{
+        display: block;
+        width: 20vw;
+        height: auto;
     }
+
+    .carContent ul{
+        padding: 0;
+    }
+
+    .carContent ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+        margin : 0;
+    }
+
+    /* 이 달의 구매 혜택 섹션 */
+    /* 이 달의 구매 혜택 헤더 */
+    .benefit{
+        text-align: center;
+        margin: 5vw;
+        margin-bottom: 1vh;
+    }
+
+    /* 이 달의 구매 혜택 내용 */
+    .benefitContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3%;
+    }
+
+    .car2{
+        width: 15vw;
+        background-color: rgba(192, 192, 192, 0.523);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        padding: 2vw;
+        margin-bottom: 5vh;
+    }
+
+    .cartop2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cartop2 p{
+        color: white;
+        border : 1px solid white;
+        border-radius: 30%;
+        font-size:8px;
+    }
+
+    .carImg{
+        display: block;
+        width: 15vw;
+        height: auto;
+    }
+
+    .carContent2 ul{
+        padding: 0;
+    }
+
+    .carContent2 ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+        margin : 0;
+    }
+
+    .calculate{
+        display: block;
+        justify-content: center;
+        background-color: rgba(192, 192, 192, 0.523);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        width: 50vw;
+        height: auto;
+        margin: 5vw;
+    }
+
+    .calculate h4{
+        padding: 2vw;
+    }
+
+    .calculate ul{
+        margin: 0;
+    }
+
+    .calculate ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1%;
+    }
+
+    /* news 섹션 */
+    .news h2{
+        text-align: center;
+    }
+
+    .newsContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: rgb(186, 186, 186);
+    }
+
+    .newsDetail{
+        margin: 3vw;
+    }
+
+    .newsContent img{
+        width:60vw;
+        height: auto;
+    }
+
+    .newsPre ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .newsPre ul li{
+        display: inline-block;
+    }
+
+    .newsPre ul li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    /* 상담 버튼 */
+    .consult{
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+    }
+
+
+    /* footer 섹션 */
+    footer{
+        background-color: rgb(0, 0, 0);
+    }
+    
+    footer p{
+        padding: 10vw;
+        color: white;
+    }
+
+
+
+
+
 
 }
