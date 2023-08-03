@@ -12,6 +12,9 @@
         width: 60%;
         margin: 0 auto;
     }
+    img.smallScreen{
+        display: none;
+    }
     hr{
         border-bottom:1px solid gray; 
     }
