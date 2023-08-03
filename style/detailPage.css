@@ -1,0 +1,257 @@
+@media screen and (max-width: 319px){
+    img.smallScreen{
+        display: block;
+        width: 100%;
+    }
+    div.wrap{
+        display: none;
+    }
+}
+@media screen and (min-width:320px), screen and (max-height: 479px) and (orientation:landscape) {
+    .wrap{
+        width: 100%;
+        margin: 0;
+    }
+    body{
+        margin: 0;
+    }
+    img.smallScreen{
+        display: none;
+    }
+    a{
+        list-style: none;
+        text-decoration: none;
+        color: black;
+    }
+
+    /* 상단 이미지 */
+    div.layout{
+        display: flex;
+        flex-direction: column;
+        position: relative;
+        width: 100%;
+        height: auto;
+    }
+
+    div.layout img{
+        width: 100%;
+    }
+
+    div.layout>p{
+        font-size: 2rem;
+        position: absolute;
+        left: 2vw;
+        color: white;
+    }
+
+    div.mainInfo{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70%;
+        left: 2vw;
+    } 
+
+    div.price{
+        display: flex;
+        flex-direction: row;
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    div.price p{
+        margin: 0;
+    }
+
+    div.price .won {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1vw;
+    }
+
+    /* 서버 NAV */
+    div.subNav {
+        display: flex;
+        flex-direction: row;
+        padding: 5%;
+        background-color: #F9F9F9;
+    }
+
+    .visible{
+        display: block;
+    }
+
+    nav.menu{
+        display: none;
+    }
+
+    a.main_menu {
+        font-size: 2rem;
+    }
+
+    a.main_menu>img{
+        width: 10%;
+    }
+
+    /* 컬러 표 */
+    section{
+        display: flex;
+        flex-direction: column;
+    }
+    section article.colorArticle{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-top: 15%;
+        padding-bottom: 10%;
+        background: linear-gradient(180deg, #EEEEEE 55%, #FFFFFF 45%);
+    }
+    article.colorArticle>h2{
+        margin-top: -0.2rem;
+        margin-bottom: -0.1rem;
+    }
+    ul.color{
+        display: inline-block;
+        margin: 0;
+    }
+    ul.color li{
+        display: inline-block;
+        list-style: none;
+        margin-left: 0.5rem;
+    }
+    div.colorPic{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    /* 외장 내장 홍보 */
+    article.description1{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #EEEEEE;
+        padding: 5% 0%;
+    }
+    article.description1 img, article.description2 img{
+        width: 100%;
+    }
+
+    div.description {
+        display: flex;
+        flex-direction: row;
+        width: 70%;
+    }
+    
+    div.description h4{
+        width: 80%;
+    }
+
+    article.description2{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        padding: 5% 0%;
+    }
+
+    /* 드라이빙 */
+    article.driving {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        background-color: #EEEEEE;
+        padding: 5% 0%;
+    }
+
+    article.driving h2{
+        margin-top: -1vh;
+        margin-bottom: 3vh;
+    }
+
+    div.drivingWrap{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 50%;
+    }
+
+    div.drivingWrap ul li{
+        margin-bottom: 20%;
+        list-style: none;
+    }
+
+    div.drivingWrap ul li img{
+        width: 100%;
+    }
+
+
+    /* 드라이빙 오버 처리 */
+    #driving1P, #driving2P, #driving3P{
+        visibility: hidden;
+    }
+
+    #driving1:hover #driving1P{
+        visibility: visible;
+        color: darkgray;
+    }
+
+    #driving2:hover #driving2P{
+        visibility: visible;
+        color: darkgray;
+    }
+
+    #driving3:hover #driving3P{
+        visibility: visible;
+        color: darkgray;
+    }
+
+
+    /* 컬러 원 */
+    #whiteCircle{
+        background-color: #EAEAEA;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+    }
+    #greenCircle{
+        background-color: #3C6A70;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+    }
+    #darkblueCircle{
+        background-color: #122F38;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+    }
+    #blackCircle{
+        background-color: #122F38;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+    }
+    #navyCircle{
+        background-color: #162E5F;
+        border-radius: 50%;
+        width: 2rem;
+        height: 2rem;
+    }
+}
+
+@media screen and (min-width:768px), screen and (min-height:760px ) and (max-height:1023px) and (orientation:landscape){
+
+}
+
+@media screen and (min-width:1024px){
+
+}
