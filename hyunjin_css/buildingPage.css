@@ -1,9 +1,92 @@
-@media screen and (min-width:0px), screen and (max-height:479px) and (orientation:landscape){
+@media screen and (min-width:0px), 
+screen and (max-height:479px) and (orientation:landscape){
+    /* 헤더 */
     header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 5%;
         width: 100%;
-        height: 30px;
-        background-color: white;
     }
+    .step1_1{
+        display: none;
+    }
+
+    .bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
+    }
+
+    .bar:hover{
+        background-color: #5e5e5e72;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        display: none;
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 20px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 30vw;
+    }
+
+    .header2{
+        display: none;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 20px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+
+    
     .head{
         text-align: center;
     }
@@ -119,7 +202,7 @@
     }
     #askConsult{
         margin-top: 50px;
-        width: 100%;
+        width: 40%;
         height: 20%;
         background-color: black;
         color: white;
@@ -127,10 +210,16 @@
         padding: 10px;
         border-radius: 3px;
     }
+    .forLayout2{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+    }
     
     footer{
         display: none;
     }
+
     
     .place{
         display: flex;
@@ -140,12 +229,12 @@
         width: 50%;
         margin: 3px;
     }
-    .step1_1{
-        display: none;
-    }
+    
+    
     }
     
-    @media screen and (min-width:768px) ,screen and (min-height:760px) and (orientation:landscape) {
+    @media screen and (min-width:768px) ,
+    screen and (min-height:760px) and (orientation:landscape) {
         header{
             width: 100%;
             height: 30px;
@@ -160,38 +249,62 @@
             padding-left: 10px;
             padding-right: 10px;
         }
+        #step1{
+            display: none;
+        }
+        .step1_1{
+            display:block;
+        }
+        /* 헤더 */
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 5%;
+            width: 100%;
+        }
+
+        .bar{
+            display: none;
+            flex-direction: row;
+            justify-content: right;
+            width: 5vw;
+            height: auto;
+        }
+        
         nav{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
             flex-wrap: wrap;
         }
-        
+    
         .header1{
+            display: flex;
             margin-left: 0;
             margin-right: auto;
             width: 40%;
         }
-        
+    
         .header1 ul{
-            padding-left: 20px;
+            padding-left: 0;
         }
-        
+    
         .header1 ul li a{
-            padding-right: 30px;
-            padding-left: 20px;
-            text-align: center;
-        
+            padding-right: 20px;
         }
-        
+    
         .logo{
             text-align: center;
             justify-content:center;
             display: block;
             margin: 0 auto;
-            width: 10vw;
+            width: 15vw;
         }
-        
+    
         .header2{
             display: flex;
             flex-direction: row;
@@ -200,10 +313,9 @@
             margin-left: auto;
             width: 40%;
         }
-        
+    
         .header2 ul li a{
-            padding-right: 30px;
-            padding-left: 30px;
+            padding-left: 20px;
         }
         
         nav ul li{
@@ -215,7 +327,7 @@
             text-decoration: none;
             color: #333; 
         }
-        
+    
         nav li a:hover{
             color: rgb(0, 0, 0);
             text-shadow: 2px 2px 2px gray;
@@ -230,9 +342,7 @@
         border: 1px solid silver;
     }
     
-    .step1_1{
-        display:block;
-    }
+    
     
     
     .selectName1{
@@ -245,11 +355,9 @@
         display: flex;
         flex-direction: column;
     }
-    #step1{
-        display: none;
-    }
     .selectCategory{
         border: 1px solid silver;
+        background-color: #ffffff;
         width: 25%;
         font-size: 9px;
         display: flex;
@@ -264,43 +372,193 @@
         font-weight: bold;
     }
      /* footer 섹션 */
-        footer{
-            display: block;
-            background-color: rgb(0, 0, 0);
-            padding: 1vw;
-            margin: 10px;
-        }
-        
-        footer img{
-            width: 20vw;
-            height: auto;
-        }
+     footer{
+        height: 10%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 3vw;
+    }
     
-        footer ul{
-            display: flex;
-            flex-direction: row;
-        }
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
     
-        footer ul li{
-            font-style: none;
-        }
-    
-        footer ul li a{
-            text-decoration: none;
-        }
-    
-        footer ul li img{
-            width: 3vw;
-            margin-right: 2vw;
-        }
-        
-        footer p{
-            padding: 1vw;
-            color: white;
-        }
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
     }
     
     
     @media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
-        
+        /* 헤더 */
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+            width: 100%;
+            margin-top: 5%;
+
+        }
+
+    .bar{
+        display: none;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        display: flex;
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 30px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 10vw;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+    /*내가 만든 푸터
+     footer{
+        height: 160px;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 1vw;
+        margin-top: 10px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }*/
+    /* footer 섹션 */
+    footer{
+        height: 18%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 1vw;
+        margin-top: 10px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
     }
