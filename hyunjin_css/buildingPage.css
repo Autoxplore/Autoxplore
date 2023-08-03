@@ -372,53 +372,40 @@ screen and (max-height:479px) and (orientation:landscape){
         font-weight: bold;
     }
      /* footer 섹션 */
-        footer{
-            display: flex;
-            width: 100%;
-            flex-direction: column;
-            justify-content: center;
-            background-color: rgb(0, 0, 0);
-            padding: 1vw;
-            margin-top: 20px;
-        }
-        .forLayout{
-            display: flex;
-            width: 100%;
-            justify-content: center;
+     footer{
+        height: 10%;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 3vw;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
 
-        }
-        footer img{
-            width: 15%;
-            height: auto;
-        }
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
     
-        footer ul{
-            display: flex;
-            width: 100%;
-            padding: 0px;
-            justify-content: center;
-            flex-direction: row;
-        }
-    
-        footer ul li{
-            font-style: none;
-        }
-    
-        footer ul li a{
-            text-decoration: none;
-        }
-    
-        footer ul li img{
-            width: 5vw;
-            margin-right: 2vw;
-        }
-        
-        footer p{
-            padding: 1vw;
-            color: white;
-            text-align: center;
-            margin: 5px 0px;
-        }
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
     }
     
     
@@ -501,5 +488,77 @@ screen and (max-height:479px) and (orientation:landscape){
         color: rgb(0, 0, 0);
         text-shadow: 2px 2px 2px gray;
         border-radius: 5%;
+    }
+    /*내가 만든 푸터
+     footer{
+        height: 160px;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 1vw;
+        margin-top: 10px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }*/
+    /* footer 섹션 */
+    footer{
+        height: 160px;
+        display: block;
+        background-color: rgb(0, 0, 0);
+        padding: 1vw;
+        margin-top: 10px;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
     }
     }
