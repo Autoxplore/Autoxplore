@@ -125,8 +125,6 @@
         width: 100%;
         object-fit: cover;
         transition: all 2s;
-        transform-style: preserve-3d;
-
     }
     .car_photo:hover{
         transform: perspective(300px) rotateY(10deg);
@@ -157,16 +155,14 @@
     .outColor{
         width: 40px;
         height: 40px;
-        background-color: silver;
-        border-radius: 100%;
         display: flex;
         flex-direction: row;
-
         justify-self:center;
         margin-left: 50px;
         margin: 0px 0px 0px 0px;
         appearance: none;
-        
+        background-color: silver;
+        border-radius: 100%;
     }
 
     .outColor.outColor:hover{
@@ -177,7 +173,7 @@
 
     }
     #white,#white:checked{
-        background-color: silver;
+        background-color: white;
         accent-color: white;
     }
     /* 수정하자!!!!!!!!!!!!!!
