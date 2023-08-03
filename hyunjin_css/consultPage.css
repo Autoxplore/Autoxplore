@@ -230,4 +230,9 @@
         display: flex;
         justify-content: center;
     }
+    #askConsult>a{
+        text-decoration: none;
+        color: white;
+    }
+    }
     }
