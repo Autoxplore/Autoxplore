@@ -1,3 +1,12 @@
+@media screen and (max-width: 319px){
+    img.smallScreen{
+        display: block;
+        width: 100%;
+    }
+    div.wrap{
+        display: none;
+    }
+}
 @media screen and (min-width:320px), screen and (max-height: 479px) and (orientation:landscape) {
     .wrap{
         width: 100%;
@@ -5,6 +14,9 @@
     }
     body{
         margin: 0;
+    }
+    img.smallScreen{
+        display: none;
     }
     a{
         list-style: none;
@@ -60,6 +72,28 @@
     }
 
     /* 서버 NAV */
+    div.subNav {
+        display: flex;
+        flex-direction: row;
+        padding: 5%;
+        background-color: #F9F9F9;
+    }
+
+    .visible{
+        display: block;
+    }
+
+    nav.menu{
+        display: none;
+    }
+
+    a.main_menu {
+        font-size: 2rem;
+    }
+
+    a.main_menu>img{
+        width: 10%;
+    }
 
     /* 컬러 표 */
     section{
