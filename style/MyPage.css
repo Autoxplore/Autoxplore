@@ -105,7 +105,7 @@
         height: max-content;
         display: flex;
         flex-direction: column;
-        margin:  0px 40px; 
+        margin: 10px; /* 각 li 요소의 간격을 조절 */
     }
 
     #estimate img{
