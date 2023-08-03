@@ -3,6 +3,9 @@
         width: 60%;
         margin: 0 auto;
     }
+    hr{
+        border-bottom:1px solid gray; 
+    }
     main.wrap>h2{
         font-size: 3rem;
         border-bottom:1px solid gray; 
@@ -33,38 +36,42 @@
         width: 80%;
     }
     article img.logo{
-        width: 40%;
+        width: 60%;
         height: 13vh;
         position: relative;
+        top: 2vh;
         left: 25%;
         margin-bottom: 3vh;
         border-bottom-width: 10vw;
         border-bottom: 2px solid black;
     }
-    div.kiaCar:hover{ /*   div.hoverBtn  */
+     /* hover Event */
+    div.kiaCar:hover{ 
         display: block;
         background-color: #F6F6F6;
         border-radius: 10%;
     }
     div.kiaCar:hover div.hoverBtn { /*   div.hoverBtn  */
         display: block;
-        /* background-color: #F6F6F6;
-        border-radius: 10%; */
+        visibility: visible;
+        background-color: #F6F6F6;
+        border-radius: 10%;
     }
-     /* hover Event */
     div.hoverBtn{
-        display: none;
+        visibility: hidden;
+        position: relative;
+        top: 1vh;
         list-style: none;
     }
-
     div.hoverBtn a{
         text-decoration: none;
         color: black;
     }
     div.hoverBtn a img{
         width: 1vw;
-        margin-left: 0.5vw;
-        margin-right: 1vw;
+        height: 1vh;
+        margin-left: 0.8vw;
+        margin-right: 1.5vw;
     }
     span.hoverImg{
         display: none;
@@ -72,9 +79,43 @@
 }
 
 @media screen and (min-width:768px), screen and (min-height:760px ) and (max-height:1023px) and (orientation:landscape){
-
+    main.wrap{
+        width: 70%;
+        margin: 0 auto;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article{
+        width: 40%;
+        margin: auto;
+    }
+    hr{
+        visibility: hidden;
+    }
 }
 
 @media screen and (min-width:1024px){
-
+    main.wrap{
+        width: 75%;
+        margin: 0 auto;
+    }
+    section{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    article{
+        width: 30%;
+        margin: auto;
+    }
+    hr{
+        visibility: hidden;
+    }
+    div.hoverBtn a img{
+        width: 1vw;
+        height: 1vh;
+        margin-left: 0.3vw;
+        margin-right: 1vw;
+    }
 }
