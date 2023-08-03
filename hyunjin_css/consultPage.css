@@ -320,3 +320,7 @@
         width: 40%;
     }
 }
+
+@media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
+
+}
