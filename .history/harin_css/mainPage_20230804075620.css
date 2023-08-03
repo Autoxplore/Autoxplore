@@ -1211,7 +1211,7 @@ screen and (min-height:1024px) and (orientation:landscape){
         position: relative;
         background-color: rgba(245, 245, 245, 0.488);
         border: 1px solid silver;
-        font-size: 1vw;
+        font-size: 3vw;
     }
 
     .carContent3 button:hover{
