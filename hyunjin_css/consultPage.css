@@ -9,6 +9,7 @@
         position: relative;
         margin-top: 5%;
         width: 100%;
+        margin-bottom: 50px;
     }
     
     nav{
@@ -165,6 +166,7 @@
         margin-left: 50px;
         margin: 0px 0px 0px 0px;
         appearance: none;
+        
     }
 
     .outColor.outColor:hover{
@@ -176,7 +178,7 @@
     }
     #white,#white:checked{
         background-color: silver;
-        accent-color: silver;
+        accent-color: white;
     }
     /* 수정하자!!!!!!!!!!!!!!
     #white:after{
