@@ -5,7 +5,7 @@
 
     #wrap {
         margin: 30;
-        padding: 20px;
+        font-size: 1rem;
     }
 
        /* 헤더 */
@@ -28,6 +28,7 @@
     }
 
     .header1{
+        display: none;
         margin-left: 0;
         margin-right: auto;
         width: 40%;
@@ -38,7 +39,7 @@
     }
 
     .header1 ul li a{
-        padding-right: 30px;
+        padding-right: 20px;
     }
 
     .logo{
@@ -46,11 +47,11 @@
         justify-content:center;
         display: block;
         margin: 0 auto;
-        width: 10vw;
+        width: 30vw;
     }
 
     .header2{
-        display: flex;
+        display: none;
         flex-direction: row;
         flex-wrap: nowrap;
         justify-content: end;
@@ -59,7 +60,7 @@
     }
 
     .header2 ul li a{
-        padding-left: 30px;
+        padding-left: 20px;
     }
     
     nav ul li{
@@ -77,7 +78,6 @@
         text-shadow: 2px 2px 2px gray;
         border-radius: 5%;
     }
-   
 
     #line {
         width: 100%;
@@ -186,34 +186,40 @@
     
     
 
-    footer {
-        margin: 20px;
-        background-color: gainsboro;
-        color: black;
-        display: flex;
-        align-content: space-between;
-        padding: 1rem;
-        
-    }
+ /* footer 섹션 */
+ footer{
+    background-color: rgb(0, 0, 0);
+    padding: 3vw;
+}
 
-    footer h4 {
-        margin: 10px 40px;
+footer img{
+    width: 30vw;
+    height: auto;
+}
 
-    }
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
 
-    footer ul {
-        position: relative;
-        list-style: none;
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        gap: 10px;
-    }
+footer ul li{
+    font-style: none;
+}
 
-    footer ul li a img {
-        max-width: 30px;
-      
-    }
+footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li img{
+    width: 8vw;
+    margin-right: 5vw;
+}
+
+footer p{
+    padding: 1vw;
+    color: white;
+    font-size: 10px;
+}
 
 }
 
@@ -223,6 +229,226 @@
 
 @media screen and (min-width:768px), screen and (min-height:760px) and(orientation:landscape) {
     
+
+
+    h3, p, a{
+        font-size: 1rem;
+    }
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* 헤더 */
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        display: flex;
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 20px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 15vw;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 20px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+    #line {
+        width: 100%;
+        height: 2px;
+        background-color: #ddd;
+        margin: 20px 0;
+    }
+
+    #profile_w{
+        display: none;
+    }
+
+
+    #main{
+
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    #carImg{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    
+    #detail{
+        margin: 0%;
+        position: relative;
+        left: 20%;
+        padding: 15px;
+        border: 1px solid  rgb(255, 255, 255);
+        width: 70%;
+        height: 70%;
+        align-items: first baseline;
+
+        border-radius: 10px;
+        background-color:  rgb(255, 253, 253);
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+
+
+    }
+
+
+
+    #detail section h3, h4{
+        color: gray;
+    }
+
+    #detail section p{
+        color: black;
+        font-weight: bold;
+    }
+
+    #monthPay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+    #line2 {
+        width: 100%;
+        height: 1px;
+        background-color: #ddd;
+        margin: 20px 0;
+       }
+
+     #totalPay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+
+     #totalPay>#p1{
+        color:  gray;
+        }
+
+    #totalPay>#p2{
+        color: rgb(87, 209, 209);
+    }
+
+
+
+    #carImg {
+        position: relative;
+        left: calc(200% - 100%); /* 초기 위치: 오른쪽 화면 밖 */
+        top: 50%; /* 시작 위치의 수직 중앙 조정 */
+        animation: carMove 2s cubic-bezier(0.1, 0.25, 0.75, 1.0) forwards; /* 애니메이션 지속 시간과 타이밍 함수 조정 */
+    }
+    
+    @keyframes carMove {
+        0% {
+            right: -200px;
+        }
+        100% {
+            left: 5%; /* 움직일 위치 */
+        }
+    } 
+
+
+
+ /* footer 섹션 */
+ footer{
+    background-color: rgb(0, 0, 0);
+    padding: 3vw;
+}
+
+footer img{
+    width: 30vw;
+    height: auto;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    font-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li img{
+    width: 8vw;
+    margin-right: 5vw;
+}
+
+footer p{
+    padding: 1vw;
+    color: white;
+    font-size: 10px;
+}
+
 
 }
 
@@ -556,8 +782,10 @@
 
      /* footer 섹션 */
      footer{
+        display: flex;
+
         background-color: rgb(0, 0, 0);
-        padding: 3vw;
+        padding: 1vw;
     }
     
     footer img{
@@ -587,6 +815,7 @@
         padding: 1vw;
         color: white;
     }
+
 
 }
    
