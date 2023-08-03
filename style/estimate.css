@@ -1,0 +1,595 @@
+@media screen and (min-width:320px) {
+    h3, p, a{
+        font-size: .8rem;
+    }
+
+    #wrap {
+        margin: 30;
+        padding: 20px;
+    }
+
+       /* 헤더 */
+       header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 30px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 10vw;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+   
+
+    #line {
+        width: 100%;
+        height: 2px;
+        background-color: #ddd;
+        margin: 20px 0;
+    }
+
+    #profile_w{
+        display: none;
+    }
+
+
+    #main{
+
+        margin: 5%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+    #carImg{
+        height: 100%;
+        width: 100%;
+        margin-bottom: 0%;
+    }
+    
+    #detail{
+        margin: 0%;
+        position: relative;
+        left: 20%;
+        padding: 15px;
+        border: 1px solid  rgb(255, 255, 255);
+        width: 70%;
+        height: 70%;
+        align-items: first baseline;
+
+        border-radius: 10px;
+        background-color:  rgb(255, 253, 253);
+        box-shadow: 0px 2px 10px rgba(0, 0, 0, 1);
+
+
+    }
+
+
+
+    #detail section h3, h4{
+        color: gray;
+    }
+
+    #detail section p{
+        color: black;
+        font-weight: bold;
+    }
+
+    #monthPay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+    #line2 {
+        width: 100%;
+        height: 1px;
+        background-color: #ddd;
+        margin: 20px 0;
+       }
+
+     #totalPay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+
+     #totalPay>#p1{
+        color:  gray;
+        }
+
+    #totalPay>#p2{
+        color: rgb(87, 209, 209);
+    }
+
+
+
+    #carImg {
+        position: relative;
+        left: calc(200% - 100%); /* 초기 위치: 오른쪽 화면 밖 */
+        top: 50%; /* 시작 위치의 수직 중앙 조정 */
+        animation: carMove 2s cubic-bezier(0.1, 0.25, 0.75, 1.0) forwards; /* 애니메이션 지속 시간과 타이밍 함수 조정 */
+    }
+    
+    @keyframes carMove {
+        0% {
+            right: -200px;
+        }
+        100% {
+            left: 5%; /* 움직일 위치 */
+        }
+    } 
+
+
+    
+    
+
+    footer {
+        margin: 20px;
+        background-color: gainsboro;
+        color: black;
+        display: flex;
+        align-content: space-between;
+        padding: 1rem;
+        
+    }
+
+    footer h4 {
+        margin: 10px 40px;
+
+    }
+
+    footer ul {
+        position: relative;
+        list-style: none;
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 10px;
+    }
+
+    footer ul li a img {
+        max-width: 30px;
+      
+    }
+
+}
+
+/*    ==========================================================================   */
+
+
+
+@media screen and (min-width:768px), screen and (min-height:760px) and(orientation:landscape) {
+    
+
+}
+
+
+/*    ==========================================================================   */
+
+@media screen and (min-width:1024px) {
+    h3, p, a{
+        font-size: .8rem;
+    }
+
+    #wrap {
+        margin: 30;
+    }
+
+      /* 헤더 */
+      header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        position: relative;
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+    .header1 ul{
+        padding-left: 0;
+    }
+
+    .header1 ul li a{
+        padding-right: 30px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 10vw;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        color: rgb(0, 0, 0);
+        text-shadow: 2px 2px 2px gray;
+        border-radius: 5%;
+    }
+
+    #line {
+        width: 100%;
+        height: 2px;
+        background-color: #ddd;
+        margin: 20px 0;
+    }
+
+    #profile_w {
+        display: none;
+     }
+
+    #main{
+        margin: 20px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #content{
+        margin: 20px;
+        display: flex;
+        flex-direction: row-reverse;
+        justify-content: space-between
+    }
+
+    #carStat{
+        width: 50%;
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    #carStat section{
+        height: 40%;
+    }
+
+    #chartContainer{
+        height: 100%;
+        position: relative;
+        left: 5%;
+    }
+
+
+    
+    #detail{
+        width: 50%;
+
+        padding: 15px;
+        margin: 10% 0% 0% 0%;
+        border: 1px solid  rgb(255, 253, 253);
+
+        border-radius: 10px;
+        background-color:  rgb(255, 253, 253);
+        box-shadow: 0px 8px 20px rgba(0, 0, 0, .7) ;
+
+
+        position: relative;
+        left: -10%;
+
+        border-radius: 10px;
+
+
+    }
+
+
+    #detail section h3, h4{
+        font-size: 1rem;
+        color: gray;
+    }
+
+    #detail section p{
+        color: black;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+    #detail table{
+        width: 30vw;
+        color: black;
+        font-size: 1.3rem;
+        font-weight: bold;
+    }
+
+    #monthPay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+    #line2 {
+        width: 100%;
+        height: 1px;
+        background-color: #ddd;
+        margin: 20px 0;
+       }
+
+     #totalPay{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        }
+
+
+     #totalPay>#p1{
+        color:  gray;
+        }
+
+    #totalPay>#p2{
+        color: rgb(87, 209, 209);
+    }
+
+
+
+
+    #carImg {
+        position: relative;
+        left: calc(200% - 200px); /* 초기 위치: 오른쪽 화면 밖 */
+        top: 0%; /* 시작 위치의 수직 중앙 조정 */
+        animation: carMove 2s cubic-bezier(0.1, 0.25, 0.75, 1.0) forwards; /* 애니메이션 지속 시간과 타이밍 함수 조정 */
+    }
+    
+    @keyframes carMove {
+        0% {
+            right: -200px;
+        }
+        100% {
+            left: 5%; /* 움직일 위치 */
+        }
+    } 
+
+
+
+
+
+
+    #chartContainer {
+        
+        position: relative;
+        left: 15%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        height: 80%;
+        width: 80%;
+        margin-top: 30px;
+        transform: rotate(180deg);
+
+    }
+
+    .bar {
+        border: 1px solid red;
+        height: 100%;
+        width: 100%;
+        background-color: lightgray;
+        border: 1px solid gray;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        transform: rotate(180deg);
+        margin: 5px;
+    }
+
+    .fill {
+        background-color: #1b1d1b;
+        height: 100%;
+        animation: grow 3s ease-in-out forwards;
+    }
+
+    .fill.animation-1 {
+        animation: grow-1 3s ease-in-out forwards;
+    }
+
+    .fill.animation-2 {
+        animation: grow-2 4s ease-in-out forwards;
+    }
+
+    .fill.animation-3 {
+        animation: grow-3 2s ease-in-out forwards;
+    }
+
+    .fill.animation-4 {
+        animation: grow-4 5s ease-in-out forwards;
+    }
+
+    .fill.animation-5 {
+        animation: grow-5 3.5s ease-in-out forwards;
+    }
+
+    .fill.animation-6 {
+        animation: grow-6 4.5s ease-in-out forwards;
+    }
+
+    @keyframes grow-1 {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 40%;
+        }
+    }
+
+    @keyframes grow-2 {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 60%;
+        }
+    }
+
+    @keyframes grow-3 {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 30%;
+        }
+    }
+
+    @keyframes grow-4 {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 70%;
+        }
+    }
+
+    @keyframes grow-5 {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 50%;
+        }
+    }
+
+    @keyframes grow-6 {
+        0% {
+            width: 0;
+        }
+        100% {
+            width: 80%;
+        }
+    }
+    
+
+
+     /* footer 섹션 */
+     footer{
+        background-color: rgb(0, 0, 0);
+        padding: 3vw;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
+
+}
+   
+
+
+
