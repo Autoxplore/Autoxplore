@@ -13,24 +13,53 @@
     }
 
     /* 상단 이미지 */
-    /* div.layout h2{
+    div.layout{
+        display: flex;
+        flex-direction: column;
         position: relative;
-        color: purple;
-        font-size: 2.5rem;
-        left: 2vw;
+        width: 100%;
+        height: auto;
     }
-    div.mainInfo{
+
+    div.layout img{
+        width: 100%;
+    }
+
+    div.layout>p{
+        font-size: 2rem;
         position: absolute;
-        top: 42%;
-        left: 2%;
+        left: 2vw;
+        color: white;
     }
-    div.mainInfo>p{
-        font-size: 1.2rem;
-    }
+
+    div.mainInfo{
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: 70%;
+        left: 2vw;
+    } 
+
     div.price{
         display: flex;
         flex-direction: row;
-    } */
+        font-size: 1.8rem;
+        font-weight: bold;
+    }
+
+    div.price p{
+        margin: 0;
+    }
+
+    div.price .won {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        font-size: 1.5rem;
+        margin-left: 1vw;
+    }
+
+    /* 서버 NAV */
 
     /* 컬러 표 */
     section{
@@ -129,6 +158,7 @@
     div.drivingWrap ul li img{
         width: 100%;
     }
+
 
     /* 드라이빙 오버 처리 */
     #driving1P, #driving2P, #driving3P{
