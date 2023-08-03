@@ -11,7 +11,10 @@
         width: 100%;
         margin-bottom: 50px;
     }
-    
+    img.smallScreen{
+        display: block;
+        width: 100%;
+    }
     nav{
         display: flex;
         flex-direction: row;
@@ -173,13 +176,13 @@
 
     }
     #white,#white:checked{
-        background-color: white;
-        accent-color: white;
+        background-color: silver;
+        accent-color: silver;
     }
     /* 수정하자!!!!!!!!!!!!!!
     #white:after{
         display: flex;
-        flex-direction: row;
+        flex-direction: row;S
         position: absolute;
         content: '✔'
     }*/
@@ -346,6 +349,17 @@
         text-decoration: none;
         color: white;
     }
+    .bar{
+        display: flex;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
+}
+
+.bar:hover{
+        background-color: #5e5e5e72;
+}
     }
     
 @media screen and (min-width:768px) ,screen and (min-height:760px) and (orientation:landscape) {
@@ -360,8 +374,8 @@
         margin: 0 auto;
         position: relative;
         padding: 10px;
-        padding-left: 10px;
-        padding-right: 10px;
+        padding-left: 20px;
+        padding-right: 20px;
     }
     nav{
         display: flex;
@@ -499,6 +513,13 @@
         padding: 1vw;
         color: white;
     }
+    .bar{
+        display: none;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
+}
 }
 
 @media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
