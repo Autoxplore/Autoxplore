@@ -527,7 +527,7 @@ screen and (max-height:479px) and (orientation:landscape){
     }*/
     /* footer 섹션 */
     footer{
-        height: 160px;
+        height: 18%;
         display: block;
         background-color: rgb(0, 0, 0);
         padding: 1vw;
