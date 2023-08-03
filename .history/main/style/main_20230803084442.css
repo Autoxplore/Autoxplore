@@ -1,0 +1,58 @@
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape){
+
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(164, 159, 159, 0.39);
+        padding: 10px;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .header1{
+        margin-right: auto;
+    }
+
+    .header2{
+        margin-left: auto;
+    }
+    
+    .logo{
+        width: 10rem;
+        padding: 10% 10%;
+        float: center;
+        margin: 0 auto;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        margin: 1vw;
+        padding: 0;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; /* 링크 텍스트 색상 설정 */
+    }
+
+    .search{
+        display: contents;
+    }
+
+}

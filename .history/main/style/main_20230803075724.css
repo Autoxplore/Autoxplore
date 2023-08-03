@@ -1,0 +1,29 @@
+#wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    /* display: flex; */
+    flex-direction: row;
+    background: rgba(164, 159, 159, 0.39);
+}
+
+nav{
+    display: inline-block;
+}
+
+.logo{
+    width: 5vw 3vh;
+}
+
+nav ul li{
+    display: inline-block;
+    
+
+}
+
+nav il li a{
+    display: inline-block;
+
+}
