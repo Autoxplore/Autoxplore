@@ -188,6 +188,12 @@ footer{
     margin: 15px;
     font-weight: bold;
 }
+footer{
+    display:block;
+    margin-top: 20px;
+    text-align: center;
+    color: rgb(69, 69, 69);
+}
 }
 
 @media screen and (min-width:1024px), screen and (min-height:1024px) and (orientation:landscape){
