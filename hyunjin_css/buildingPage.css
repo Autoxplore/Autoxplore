@@ -86,35 +86,7 @@ screen and (max-height:479px) and (orientation:landscape){
         border-radius: 5%;
     }
 
-    /* 검색창 */
-    .search{
-        display: none;
-        justify-content: center;
-        margin: 5vw;
-    }
-
-    .search input[type="text"]{
-        width: 50vw;
-        height: 5vh;
-    }
-
-    .search button{
-        width: 35px;
-        height: 35px;
-        margin-left: 10px;
-        background-color: transparent;
-        border : 1px solid rgb(0, 0, 0);
-    }
-
-    .search button:hover{
-        background-color: #b9b9b9;
-    }
-
-    .search button img{
-        width: 20px;
-        height: 25px;
-    }
-
+    
     .head{
         text-align: center;
     }
@@ -248,10 +220,6 @@ screen and (max-height:479px) and (orientation:landscape){
         display: none;
     }
 
-    .foooter{
-        display: inline;
-        width: 100%;
-    }
     
     .place{
         display: flex;

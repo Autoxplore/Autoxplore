@@ -72,13 +72,13 @@
         text-shadow: 2px 2px 2px gray;
         border-radius: 5%;
     }
-    .head2{
+    .head3{
         text-align: center;
-        font-size: 1.5rem;
-        height: 10%;
-        font-weight: bold;
-        padding: 10px;
-        border-bottom: 1px solid silver;
+        font-size: large;
+    }
+    .head3>p{
+        font-size: 10px;
+        color: rgb(163, 163, 163);
     }
     .main-car{
         background-color: silver;
