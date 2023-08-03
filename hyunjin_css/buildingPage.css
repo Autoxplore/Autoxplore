@@ -263,6 +263,39 @@ footer{
     margin: 15px;
     font-weight: bold;
 }
+ /* footer 섹션 */
+ footer{
+    background-color: rgb(0, 0, 0);
+    padding: 3vw;
+}
+
+footer img{
+    width: 20vw;
+    height: auto;
+}
+
+footer ul{
+    display: flex;
+    flex-direction: row;
+}
+
+footer ul li{
+    font-style: none;
+}
+
+footer ul li a{
+    text-decoration: none;
+}
+
+footer ul li img{
+    width: 3vw;
+    margin-right: 2vw;
+}
+
+footer p{
+    padding: 1vw;
+    color: white;
+}
 }
 
 .option{
