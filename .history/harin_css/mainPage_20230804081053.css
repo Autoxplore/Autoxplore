@@ -235,9 +235,8 @@
         }
         /* 이 달의 구매 혜택 헤더 */
         .monthBenefit h2{
-            display: block;
             text-align: center;
-            padding: 2vh;
+            padding: 5vh;
             padding-bottom: 0.1vh;
             font-size: 15px;
         }
@@ -249,8 +248,7 @@
     
         /* 이 달의 구매 혜택 내용 */
         .benefitContent{
-            display: block;
-            flex-direction: row;
+            display: inline-block;
             justify-content: space-between;
             margin: 5%;
         }
@@ -335,7 +333,7 @@
     
         .carContent3 button{
             width: 20vw;
-            height: 1vh;
+            height: 2.5vh;
             margin: 5px;
             position: relative;
             background-color: rgba(245, 245, 245, 0.488);
@@ -361,7 +359,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin: 0 auto;
-            height: 15vh;
+            height: 35vh;
             background-color: rgb(186, 186, 186);
         }
     
@@ -372,12 +370,12 @@
     
         .newsContent img{
             width:45vw;
-            height: 15vh;
+            height: 35vh;
         }
     
         .news button{
             width: 30vw;
-            height: 1vh;
+            height: 3vh;
         }
     
         .newsPre ul{
@@ -715,7 +713,7 @@
             border: 1px solid rgb(255, 255, 255);
             border-radius: 10%;
             padding: 3vw;
-            margin-bottom: 5vh;
+            margin-bottom: 1vh;
         }
     
         .car3:hover{
@@ -775,7 +773,7 @@
     
         .carContent3 button{
             width: 7.5vw;
-            height: 1vh;
+            height: 2.5vh;
             margin: 5px;
             position: relative;
             background-color: rgba(245, 245, 245, 0.488);
@@ -801,7 +799,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin: 0 auto;
-            height: 20vh;
+            height: 35vh;
             background-color: rgb(186, 186, 186);
         }
     
@@ -812,12 +810,12 @@
     
         .newsContent img{
             width:50vw;
-            height: 20vh;
+            height: 35vh;
         }
     
         .news button{
             width: 15vw;
-            height: 2vh;
+            height: 3vh;
         }
     
         .newsPre ul{
@@ -1233,7 +1231,7 @@ screen and (min-height:1024px) and (orientation:landscape){
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
-        height: 20vh;
+        height: 40vh;
         background-color: rgb(186, 186, 186);
     }
 
@@ -1243,12 +1241,12 @@ screen and (min-height:1024px) and (orientation:landscape){
 
     .newsContent img{
         width:50vw;
-        height: 20vh;
+        height: 40vh;
     }
 
     .news button{
         width: 8vw;
-        height: 2vh;
+        height: 3vh;
     }
 
     .newsPre ul{
