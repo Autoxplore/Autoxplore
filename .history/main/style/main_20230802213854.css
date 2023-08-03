@@ -1,0 +1,14 @@
+#wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: silver;
+}
+
+nav{
+    display: inline-block;
+}

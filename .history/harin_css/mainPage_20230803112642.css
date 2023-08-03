@@ -1,0 +1,264 @@
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape){
+
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* 헤더 */
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(220, 216, 216, 0.39);
+        margin: 0 auto;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        margin-right: auto;
+    }
+
+    .header2{
+        margin-left: auto;
+    }
+    
+    .logo{
+        width: 10rem;
+        margin: 0 auto;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 1vw;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    /* 검색창 */
+    .search{
+        display: flex;
+        justify-content: center;
+        margin: 5vw;
+    }
+
+    .search input[type="text"]{
+        width: 50vw;
+        height: 2vh;
+    }
+
+    .search input[type="button"]{
+        width: 2vw;
+        height: 2vh;
+        margin-left: 1vw;
+    }
+
+    /* best 섹션 */
+    /* best 헤더 */
+    .best h2{
+        text-align: center;
+    }
+
+    .best ul{
+        display: flex;
+        justify-content: center;
+        padding: 1vh;
+    }
+
+    .best ul li{
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .best ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 1vw;
+    }
+
+    /* best 내용 */
+    .bestContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3%;
+    }
+
+    .car1{
+        width: 20vw;
+        background-color: rgba(192, 192, 192, 0.523);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        padding: 2vw;
+    }
+
+    .cartop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cartop p{
+        color: white;
+        border : 1px solid white;
+        border-radius: 30%;
+        line-height: 40px;
+        font-size:14px;
+        position: relative;
+    }
+
+    .carImg{
+        display: block;
+        width: 20vw;
+        height: auto;
+    }
+
+    .carContent ul{
+        padding: 0;
+    }
+
+    .carContent ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+        margin : 0;
+    }
+
+    /* 이 달의 구매 혜택 섹션 */
+    /* 이 달의 구매 혜택 헤더 */
+    .benefit{
+        text-align: center;
+        margin: 5vw;
+        margin-bottom: 1vh;
+    }
+
+    /* 이 달의 구매 혜택 내용 */
+    .benefitContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 3%;
+    }
+
+    .car2{
+        width: 15vw;
+        background-color: rgba(192, 192, 192, 0.523);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        padding: 2vw;
+        margin-bottom: 5vh;
+    }
+
+    .cartop2{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cartop2 p{
+        color: white;
+        border : 1px solid white;
+        border-radius: 30%;
+        font-size:8px;
+    }
+
+    .carImg{
+        display: block;
+        width: 15vw;
+        height: auto;
+    }
+
+    .carContent2 ul{
+        padding: 0;
+    }
+
+    .carContent2 ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+        margin : 0;
+    }
+
+    .calculate{
+        display: block;
+        justify-content: center;
+        background-color: rgba(192, 192, 192, 0.523);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        width: 50vw;
+        height: auto;
+        margin: 5vw;
+    }
+
+    .calculate h4{
+        padding: 2vw;
+    }
+
+    .calculate ul{
+        margin: 0;
+    }
+
+    .calculate ul li{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        padding: 1%;
+    }
+
+    /* news 섹션 */
+    .news h2{
+        text-align: center;
+    }
+
+    .newsContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: bisque;
+    }
+
+    .newsDetail{
+        margin: 3vw;
+    }
+
+    .newsContent img{
+        width:60vw;
+        height: auto;
+    }
+
+    .newsPre {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .newsPre ul li{
+        display: inline-block;
+    }
+
+    .newsPre ul li a{
+        color: black;
+    }
+
+
+
+
+
+
+}

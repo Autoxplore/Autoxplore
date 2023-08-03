@@ -1,0 +1,426 @@
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape){
+
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* 헤더 */
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        margin: 0 auto;
+        margin-top: 5%;
+        width: 100%;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        margin-left: 0;
+        margin-right: auto;
+        width: 40%;
+    }
+
+
+
+    .header1 ul li a{
+        margin: 0;
+        padding-right: 40px;
+    }
+
+    .logo{
+        text-align: center;
+        justify-content:center;
+        display: block;
+        margin: 0 auto;
+        width: 10vw;
+    }
+
+    .header2{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        justify-content: end;
+        margin-left: auto;
+        width: 40%;
+    }
+
+    .header2 ul li a{
+        margin: 0;
+        padding-left: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    nav li a:hover{
+        background-color: rgba(106, 106, 106, 0.497);
+        color: white;
+        border-radius: 5%;
+        padding: 15px;
+        margin: 0;
+    }
+
+    /* 검색창 */
+    .search{
+        display: flex;
+        justify-content: center;
+        margin: 5vw;
+    }
+
+    .search input[type="text"]{
+        width: 50vw;
+        height: 2vh;
+    }
+
+    .search button{
+        width: 35px;
+        height: 35px;
+        margin-left: 5px;
+        background-color: transparent;
+        border : 1px solid rgb(0, 0, 0);
+    }
+
+    .search button:hover{
+        background-color: #b9b9b9;
+    }
+
+    .search button img{
+        width: 20px;
+        height: 25px;
+    }
+
+    /* best 섹션 */
+    /* best 헤더 */
+    .best h2{
+        text-align: center;
+    }
+
+    .best ul{
+        display: flex;
+        justify-content: center;
+        padding: 1vh;
+    }
+
+    .best ul li{
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .best ul li:hover{
+        font-weight: bold;
+        text-decoration: underline;
+    }
+
+    .best ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 1vw;
+    }
+
+    /* best 내용 */
+    .wrap1{
+        width: 80%;
+        margin: 0 auto;
+    }
+
+
+    .bestContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 3%;
+    }
+
+    .car1{
+        width: 90%;
+        height: auto;
+        background-color: rgba(192, 192, 192, 0.185);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        padding: 2vw;
+        margin-right: 1vw;
+    }
+
+    .car1:hover{
+        background-color: rgba(109, 109, 109, 0.185);
+        font-weight: bold;
+    }
+
+    .cartop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        font-size: 2vw;
+    }
+
+    .cartop p{
+        color: rgb(0, 0, 0);
+        border-radius: 30%;
+        font-size:14px;
+        position: relative;
+    }
+
+    .carImg{
+        display: block;
+        position: relative;
+        left: 2vw;
+        transition: transform 0.3s ease;
+        width: 15vw;
+        height: auto;
+    }
+
+    .carImg:hover{
+        transform: translateX(-50px); 
+    }
+
+    .carContent ul{
+        padding: 0;
+    }
+
+    .carContent ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 3%;
+        margin : 0;
+        font-size: 1vw;
+    }
+
+    /* 이 달의 구매 혜택 섹션 */
+    .monthBenefit{
+        background-color: rgba(240, 240, 240, 0.747);
+    }
+    /* 이 달의 구매 혜택 헤더 */
+    .monthBenefit h2{
+        text-align: center;
+        padding: 5vh;
+        padding-bottom: 0.1vh;
+    }
+
+    .monthBenefit h6{
+        text-align: center;
+        color: black;
+    }
+
+    /* 이 달의 구매 혜택 내용 */
+    .benefitContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 5%;
+    }
+
+    .car2{
+        width: 10vw;
+        background-color: rgba(192, 192, 192, 0.227);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        padding: 2vw;
+        margin-bottom: 10vh;
+    }
+
+    .car2:hover{
+        background-color: rgba(109, 109, 109, 0.185);
+        font-weight: bold;
+    }
+
+    .car3{
+        width: 25vw;
+        background-color: rgba(192, 192, 192, 0.227);
+        border: 1px solid rgb(255, 255, 255);
+        border-radius: 10%;
+        padding: 3vw;
+        margin-bottom: 1vh;
+    }
+
+    .car3:hover{
+        background-color: rgba(109, 109, 109, 0.185);
+        font-weight: bold;
+    }
+
+    .cartop2, .cartop3{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cartop2 p{
+        color: white;
+        border : 1px solid white;
+        border-radius: 30%;
+        font-size:8px;
+    }
+
+    .brandImg1{
+        display: block;
+        width: 10vw;
+        height: auto;
+        position: relative;
+        transition: transform 0.3s ease;
+    }
+
+    .brandImg1:hover{
+        background-image: url("image/car/kia/seltos.png");
+    }
+
+    .brandImg2{
+        display: block;
+        width: 20vw;
+        height: auto;
+    }
+
+    .brandImg2:hover{
+        display: block;
+        width: 20vw;
+        height: auto;
+    }
+
+    .carContent2{
+        font-size: 1vw;
+    }
+
+    .carContent3{
+        font-size: 1.1vw;
+    }
+
+    .carContent2 ul, .carContent3 ul{
+        padding: 0;
+    }
+
+    .carContent2 ul li, .carContent3 ul li {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        padding: 5%;
+        margin : 0;
+    }
+
+    .carContent3 button{
+        width: 7vw;
+        height: 3vh;
+        margin: 5px;
+        position: relative;
+        background-color: rgba(245, 245, 245, 0.488);
+        border: 1px solid silver;
+    }
+
+    .carContent3 button:hover{
+        background: linear-gradient(to right, #50505075, #e4e4e4);
+    }
+
+    .smallFont{
+        font-size: 1vw;
+    }
+
+    /* news 섹션 */
+    .news h2{
+        text-align: center;
+    }
+
+    .newsContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 0 auto;
+        background-color: rgb(186, 186, 186);
+    }
+
+    .newsDetail{
+        margin: 3vw;
+    }
+
+    .newsContent img{
+        width:50vw;
+        height: 35vh;
+    }
+
+    .news button{
+        width: 8vw;
+        height: 3vh;
+    }
+
+    .newsPre ul{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .newsPre ul li{
+        display: inline-block;
+    }
+
+    .newsPre ul li:hover{
+        background-color: rgba(192, 192, 192, 0.292);
+    }
+
+    .newsPre ul li a{
+        color: black;
+        text-decoration: none;
+    }
+
+    /* 상담 버튼 */
+    .consult{
+        position: fixed;
+        bottom: 50px;
+        right: 50px;
+    }
+
+
+    /* footer 섹션 */
+    footer{
+        background-color: rgb(0, 0, 0);
+        padding: 3vw;
+    }
+    
+    footer img{
+        width: 20vw;
+        height: auto;
+    }
+
+    footer ul{
+        display: flex;
+        flex-direction: row;
+    }
+
+    footer ul li{
+        font-style: none;
+    }
+
+    footer ul li a{
+        text-decoration: none;
+    }
+
+    footer ul li img{
+        width: 3vw;
+        margin-right: 2vw;
+    }
+    
+    footer p{
+        padding: 1vw;
+        color: white;
+    }
+
+
+
+
+
+
+}
