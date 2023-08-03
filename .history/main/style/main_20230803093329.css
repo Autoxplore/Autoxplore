@@ -1,0 +1,122 @@
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape){
+
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    /* 헤더 */
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(220, 216, 216, 0.39);
+        margin: 0 auto;
+    }
+    
+    nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+
+    .header1{
+        margin-right: auto;
+    }
+
+    .header2{
+        margin-left: auto;
+    }
+    
+    .logo{
+        width: 10rem;
+        /* float: center; */
+        margin: 0 auto;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 1vw;
+    }
+    
+    nav li a{
+        text-decoration: none;
+        color: #333; 
+    }
+
+    /* 검색창 */
+    .search{
+        display: flex;
+        justify-content: center;
+        margin: 5vw;
+    }
+
+    .search input[type="text"]{
+        width: 50vw;
+        height: 2vh;
+    }
+
+    .search input[type="button"]{
+        width: 2vw;
+        height: 2vh;
+        margin-left: 1vw;
+    }
+
+    /* best 섹션 */
+    /* best 헤더 */
+    .best h2{
+        text-align: center;
+    }
+
+    .best ul{
+        display: flex;
+        justify-content: center;
+        padding: 1vh;
+    }
+
+    .best ul li{
+        display: inline-block;
+        justify-content: center;
+    }
+
+    .best ul li a{
+        text-decoration: none;
+        color: rgb(0, 0, 0);
+        padding: 1vw;
+    }
+
+    /* best 내용 */
+    .bestContent{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: antiquewhite;
+    }
+
+    .car1{
+        background-color: silver;
+        border: 1px solid black;
+        border-radius: 5%;
+        padding: 2vw;
+    }
+
+    .cartop{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .cartop p{
+        background-color: black;
+        color: white;
+        border : 1px solid white;
+        border-radius: 50%;
+        padding: 3%;
+        font-size: small;
+    }
+
+}

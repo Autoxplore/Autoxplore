@@ -1,0 +1,14 @@
+#wrap{
+    width: 90%;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+        width: 90%;
+    background-color: silver;
+}
+
+nav{
+
+}

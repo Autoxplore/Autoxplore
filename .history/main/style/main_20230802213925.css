@@ -1,0 +1,24 @@
+#wrap{
+    width: 90%;
+    margin: 0 auto;
+}
+
+header{
+    display: flex;
+    flex-direction: row;
+    background-color: silver;
+}
+
+nav{
+    display: inline-block;
+}
+
+nav ul li{
+    display: inline-block;
+
+}
+
+nav il li a{
+    display: inline-block;
+
+}

@@ -1,0 +1,39 @@
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape){
+
+    #wrap{
+        width: 90%;
+        margin: 0 auto;
+    }
+    
+    header{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        background: rgba(164, 159, 159, 0.39);
+        padding: 10px;
+    }
+    
+    nav{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo{
+        width: 30px;
+    }
+    
+    nav ul li{
+        display: inline-block;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    nav il li a{
+        text-decoration: none;
+        color: #333; /* 링크 텍스트 색상 설정 */
+    }
+
+}
