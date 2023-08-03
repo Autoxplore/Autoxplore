@@ -139,4 +139,21 @@
     .optionCar>img{
         width: 80%;
     }
+    #askConsult{
+        margin-top: 50px;
+        width: 48%;
+        height: 20%;
+        background-color: black;
+        color: white;
+        font-size: 17.5px;
+        padding: 10px;
+        border-radius: 3px;
+    }
+    .btn-set{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        margin: 10px;
+
+    }
     }
