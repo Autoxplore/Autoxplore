@@ -1,8 +1,8 @@
 # Autoxplore
 ![autoxplore](https://github.com/Autoxplore/Autoxplore/assets/99604087/d651dc2f-9944-4de0-b2c8-d258b26cef7d)
 ### [개요] <br>
-+ AUTOXPLORE는 자동차 브랜드를 한눈에 모아서 원하는 차종을 브랜드 별로 볼 수 있는 플랫폼 입니다.
-
++ AUTOXPLORE는 자동차 브랜드를 한눈에 모아서 원하는 차종을 브랜드 별로 볼 수 있는 플랫폼 입다.
+------------
 ### [파트 분담] <br>
 ※ 모든 HTML과 CSS에 적용된 header, footer는 김하린님이 작성했습니다.
 
