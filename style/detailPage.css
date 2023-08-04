@@ -553,13 +553,16 @@
         margin: 3vh 2vw;
     }
 
+
     nav.menu ul li a{
         font-size: 0.9rem;
         margin: 0 1.2vw;
     }
 
     img.linkImg {
-        width: 2vw;
+        width: 1vw;
+        height: 1.3vh;
+        margin-left: 0.5vw;
     }
 
     a.main_menu {
