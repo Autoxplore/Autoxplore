@@ -362,7 +362,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin: 0 auto;
-            height: 15vh;
+            height: 28vh;
             background-color: rgb(186, 186, 186);
         }
     
@@ -372,13 +372,13 @@
         }
     
         .newsContent img{
-            width:45vw;
-            height: 15vh;
+            width: 45vw;
+            height: 28vh;
         }
     
         .news button{
             width: 30vw;
-            height: 1vh;
+            height: 2vh;
         }
     
         .newsPre ul{
@@ -803,7 +803,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin: 0 auto;
-            height: 20vh;
+            height: 30vh;
             background-color: rgb(186, 186, 186);
         }
     
@@ -814,7 +814,7 @@
     
         .newsContent img{
             width:50vw;
-            height: 20vh;
+            height: 30vh;
         }
     
         .news button{
@@ -1235,7 +1235,7 @@ screen and (min-height:1024px) and (orientation:landscape){
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
-        height: 20vh;
+        height: 30vh;
         background-color: rgb(186, 186, 186);
     }
 
@@ -1245,7 +1245,7 @@ screen and (min-height:1024px) and (orientation:landscape){
 
     .newsContent img{
         width:50vw;
-        height: 20vh;
+        height: 30vh;
     }
 
     .news button{
