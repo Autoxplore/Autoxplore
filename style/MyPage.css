@@ -1,19 +1,34 @@
+@media screen and (max-width: 319px){
+    img.smallScreen{
+        display: block;
+        width: 100%;
+    }
+    #wrap{
+        display: none;
+    }
+}
 
 
-@media screen and (min-width:320px) {
+@media screen and (min-width:320px),
+    screen and (min-height: 479px)
+    and (orientation:landscape){
+    
+        img.smallScreen{
+            display: none;
+        }
 
     h3, p, a{
         font-size: 1rem;
     }
 
     #wrap {
-        margin: 30;
+        margin: 10%;
         font-size: 1rem;
         width: 70%;
     }
 
-     /* 헤더 */
-        header{
+         /* 헤더 */
+         header{
             display: flex;
             flex-direction: row;
             justify-content: space-between;
@@ -22,6 +37,18 @@
             position: relative;
             margin-top: 5%;
             width: 100%;
+        }
+
+        .bar{
+            display: flex;
+            flex-direction: row;
+            justify-content: right;
+            width: 5vw;
+            height: auto;
+        }
+
+        .bar:hover{
+            background-color: #5e5e5e72;
         }
         
         nav{
@@ -164,7 +191,7 @@
 
 
     #estimate {
-        margin-top: 50px;
+        margin-top: 2%;
         flex:65%;
 
     }
@@ -177,6 +204,7 @@
 
 
     #estimate ul {
+
         list-style: none;
         display: flex;
         justify-content: center;
@@ -194,12 +222,14 @@
         height: max-content;
         display: flex;
         flex-direction: column;
-        margin: 20px; /* 각 li 요소의 간격을 조절 */
+        margin: 20%; /* 각 li 요소의 간격을 조절 */
         transition: transform 0.3s ease;
 
     }
 
     #estimate img{
+        width: 100%;
+
         height: auto; /* 높이 자동 조정 */
 
     }
@@ -258,8 +288,9 @@ footer p{
 }
 
 
-
-@media screen and (min-width:768px), screen and (min-height:760px) and(orientation:landscape) {
+@media screen and (min-width:768px),
+    screen and (min-height:760px) 
+    and (max-height:1023px) and (orientation:landscape) {
     
     h3, p, a{
         font-size: 1rem;
@@ -269,76 +300,86 @@ footer p{
         margin: 0 auto;
     }
     
+             
     /* 헤더 */
-    header{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        align-items: center;
-        margin: 0 auto;
-        position: relative;
-        margin-top: 5%;
-        width: 100%;
-    }
+        header{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            margin: 0 auto;
+            position: relative;
+            margin-top: 5%;
+            width: 100%;
+        }
+
+        .bar{
+            display: none;
+            flex-direction: row;
+            justify-content: right;
+            width: 5vw;
+            height: auto;
+        }
+        
+        nav{
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
     
-    nav{
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        flex-wrap: wrap;
-    }
-
-    .header1{
-        display: flex;
-        margin-left: 0;
-        margin-right: auto;
-        width: 40%;
-    }
-
-    .header1 ul{
-        padding-left: 0;
-    }
-
-    .header1 ul li a{
-        padding-right: 20px;
-    }
-
-    .logo{
-        text-align: center;
-        justify-content:center;
-        display: block;
-        margin: 0 auto;
-        width: 15vw;
-    }
-
-    .header2{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: nowrap;
-        justify-content: end;
-        margin-left: auto;
-        width: 40%;
-    }
-
-    .header2 ul li a{
-        padding-left: 20px;
-    }
+        .header1{
+            display: flex;
+            margin-left: 0;
+            margin-right: auto;
+            width: 40%;
+        }
     
-    nav ul li{
-        display: inline-block;
-        list-style: none;
-    }
+        .header1 ul{
+            padding-left: 0;
+        }
     
-    nav li a{
-        text-decoration: none;
-        color: #333; 
-    }
+        .header1 ul li a{
+            padding-right: 20px;
+        }
+    
+        .logo{
+            text-align: center;
+            justify-content:center;
+            display: block;
+            margin: 0 auto;
+            width: 15vw;
+        }
+    
+        .header2{
+            display: flex;
+            flex-direction: row;
+            flex-wrap: nowrap;
+            justify-content: end;
+            margin-left: auto;
+            width: 40%;
+        }
+    
+        .header2 ul li a{
+            padding-left: 20px;
+        }
+        
+        nav ul li{
+            display: inline-block;
+            list-style: none;
+        }
+        
+        nav li a{
+            text-decoration: none;
+            color: #333; 
+        }
+    
+        nav li a:hover{
+            color: rgb(0, 0, 0);
+            text-shadow: 2px 2px 2px gray;
+            border-radius: 5%;
+        }
 
-    nav li a:hover{
-        color: rgb(0, 0, 0);
-        text-shadow: 2px 2px 2px gray;
-        border-radius: 5%;
-    }
     #line {
         width: 100%;
         height: 2px;
@@ -474,40 +515,41 @@ footer p{
 
 
 
- /* footer 섹션 */
- footer{
-    background-color: rgb(0, 0, 0);
-    padding: 3vw;
-}
-
-footer img{
-    width: 30vw;
-    height: auto;
-}
-
-footer ul{
-    display: flex;
-    flex-direction: row;
-}
-
-footer ul li{
-    font-style: none;
-}
-
-footer ul li a{
-    text-decoration: none;
-}
-
-footer ul li img{
-    width: 8vw;
-    margin-right: 5vw;
-}
-
-footer p{
-    padding: 1vw;
-    color: white;
-    font-size: 10px;
-}
+        /* footer 섹션 */
+        footer{
+            background-color: rgb(0, 0, 0);
+            padding: 3vw;
+        }
+        
+        footer img{
+            width: 20vw;
+            height: auto;
+        }
+    
+        footer ul{
+            display: flex;
+            flex-direction: row;
+        }
+    
+        footer ul li{
+            font-style: none;
+        }
+    
+        footer ul li a{
+            text-decoration: none;
+        }
+    
+        footer ul li img{
+            width: 3vw;
+            margin-right: 2vw;
+        }
+        
+        footer p{
+            padding: 1vw;
+            color: white;
+            font-size: 10px;
+        }
+    
 
 
 }
@@ -515,7 +557,8 @@ footer p{
 
 /*    ==========================================================================   */
 
-@media screen and (min-width:1024px) {
+@media screen and (min-width:1024px),
+screen and (min-height:1024px) and (orientation:landscape) {
     
 
     #wrap {
@@ -523,8 +566,9 @@ footer p{
         padding: 20px;
     }
 
-       /* 헤더 */
-       header{
+    
+    /* 헤더 */
+    header{
         display: flex;
         flex-direction: row;
         justify-content: space-between;
@@ -533,6 +577,14 @@ footer p{
         position: relative;
         margin-top: 5%;
         width: 100%;
+    }
+
+    .bar{
+        display: none;
+        flex-direction: row;
+        justify-content: right;
+        width: 5vw;
+        height: auto;
     }
     
     nav{
@@ -543,6 +595,7 @@ footer p{
     }
 
     .header1{
+        display: flex;
         margin-left: 0;
         margin-right: auto;
         width: 40%;
@@ -593,6 +646,7 @@ footer p{
         border-radius: 5%;
     }
 
+
     #line {
         height: 2px;
         background-color: #ddd;
@@ -600,7 +654,7 @@ footer p{
     }
 
     #main {
-        margin: 50px;
+        margin: 30px;
         display: flex;
         flex-direction: column;
         justify-content: space-between;
@@ -611,9 +665,11 @@ footer p{
     }
 
     #profile_w {
+
         margin-top: 0px;
         display: flex;
-        justify-content: end;        
+        justify-content: end;     
+
      }
 
     #profile_w img {
@@ -686,14 +742,10 @@ footer p{
     }
 
 
-
-
     /* footer 섹션 */
     footer{
-        display: flex;
-
         background-color: rgb(0, 0, 0);
-        padding: 1vw;
+        padding: 3vw;
     }
     
     footer img{
@@ -722,8 +774,8 @@ footer p{
     footer p{
         padding: 1vw;
         color: white;
+        font-size: 10px;
     }
-
 
 
 }
