@@ -6,6 +6,9 @@
     #wrap{
         display: none;
     }
+    footer{
+        display: none;
+    }
 }
 
 
@@ -22,7 +25,7 @@
     }
 
     #wrap {
-        margin: 10%;
+        margin: 0 auto;
         font-size: 1rem;
         width: 90%;
 
@@ -142,7 +145,7 @@
     #detail{
         margin: 0%;
         position: relative;
-        left: 20%;
+        left: 10%;
         padding: 15px;
         border: 1px solid  rgb(255, 255, 255);
         width: 70%;
@@ -505,7 +508,8 @@ screen and (min-height:1024px) and (orientation:landscape) {
     }
 
     #wrap {
-        margin: 30;
+        margin:0 auto;
+        width: 90%;
     }
 
          
@@ -549,6 +553,7 @@ screen and (min-height:1024px) and (orientation:landscape) {
 
     .header1 ul li a{
         padding-right: 30px;
+        font-size: 18px;
     }
 
     .logo{
@@ -570,6 +575,7 @@ screen and (min-height:1024px) and (orientation:landscape) {
 
     .header2 ul li a{
         padding-left: 30px;
+        font-size: 18px;
     }
     
     nav ul li{
