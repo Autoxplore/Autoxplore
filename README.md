@@ -1,4 +1,5 @@
 # Autoxplore
+<img width=450" alt="logo" src="![autoxplore](https://github.com/Autoxplore/Autoxplore/assets/99604087/d651dc2f-9944-4de0-b2c8-d258b26cef7d)">
 ### [파트 분담] <br>
 ※ 모든 HTML과 CSS에 적용된 header, footer는 김하린님이 작성했습니다.
 
