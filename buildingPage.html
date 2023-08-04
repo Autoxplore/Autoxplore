@@ -23,6 +23,7 @@
             src="image/logo/autoxplore.png"
             alt="AUTOXPLORE 로고"
         /></a>
+        <a href="#"><img class="bar" src="image/header/bar.png" alt="bar" /></a>
         <nav class="header2">
           <ul>
             <li><a href="#">로그인</a></li>
@@ -31,7 +32,7 @@
         </nav>
       </header>
       <div class="head">
-        <h4>구매 상담 신청</h4>
+        <h3>구매 상담 신청</h3>
         <p>전담 상담원으로부터 차량 구매에 관한 모든 정보를 안내받아보세요.</p>
       </div>
 
@@ -45,17 +46,17 @@
           <label class="selectName">카테고리 선택</label>
           <select name="category">
             <option value="">카테고리</option>
-            <option value="승용" selected="selected">승용</option>
-            <option value="RV">RV</option>
-            <option value="버스,상용">버스&상용</option>
+            <option value="승용" name="cate">승용</option>
+            <option value="RV" selected="selected" name="cate">RV</option>
+            <option value="버스,상용" name="cate">버스&상용</option>
           </select>
 
           <label class="selectName">브랜드 선택</label>
           <select name="brand">
             <option value="">브랜드</option>
-            <option value="승용" selected="selected">현대</option>
-            <option value="RV" selected="selected">기아</option>
-            <option value="택시,상용">쉐보레</option>
+            <option value="승용" name="brand-">현대</option>
+            <option value="RV" name="brand-" selected="selected">기아</option>
+            <option value="택시,상용" name="brand-">쉐보레</option>
           </select>
 
           <label class="selectName">모델 선택</label>
@@ -83,7 +84,7 @@
             <div class="selectCategory">
               <label>카테고리 선택</label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
+                <input type="radio" name="contact" value="email" />
                 <span>승용</span>
               </label>
               <label>
@@ -91,56 +92,56 @@
                 <span>RV</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
+                <input type="radio" name="contact" value="email" />
                 <span>택시&상용</span>
               </label>
             </div>
             <div class="selectCategory">
               <label>브랜드 선택</label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
-                <span>승용</span>
+                <input type="radio" name="contact2" value="email" checked />
+                <span>현대</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
-                <span>RV</span>
+                <input type="radio" name="contact2" value="email" checked />
+                <span>기아</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
-                <span>택시&상용</span>
+                <input type="radio" name="contact2" value="email" checked />
+                <span>쉐보레</span>
               </label>
             </div>
             <div class="selectCategory">
               <label>모델 선택</label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
-                <span>모닝</span>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>K3 GT</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
-                <span>레이</span>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>EV6</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
-                <span>K3</span>
+                <input type="radio" name="contact3" value="email" checked />
+                <span>니로 EV</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
+                <input type="radio" name="contact3" value="email" checked />
                 <span>K5</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
+                <input type="radio" name="contact3" value="email" checked />
                 <span>K8</span>
               </label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
+                <input type="radio" name="contact3" value="email" checked />
                 <span>K9</span>
               </label>
             </div>
             <div class="selectCategory">
               <label>엔진 선택</label>
               <label>
-                <input type="radio" name="contact" value="email" checked />
+                <input type="radio" name="contact4" value="email" checked />
                 <span>1.6 가솔린</span>
               </label>
             </div>
@@ -235,8 +236,35 @@
           </div>
         </div>
       </section>
-      <button id="askConsult">상담요청</button>
+      <div class="forLayout2">
+        <button id="askConsult">상담요청</button>
+      </div>
     </div>
+    <!-- 내가 만든 푸터
+    <footer>
+      <div class="forLayout">
+        <img src="image/logo/autoxplore_white.png" alt="로고" />
+      </div>
+      <ul>
+        <li>
+          <a href="https://github.com/Autoxplore/Autoxplore"
+            ><img src="image/footer/git.png" alt="git"
+          /></a>
+        </li>
+        <li>
+          <a href="#"
+            ><img src="image/footer/instagram.png" alt="instagram"
+          /></a>
+        </li>
+        <li>
+          <a href="#"><img src="image/footer/facebook.png" alt="facebook" /></a>
+        </li>
+      </ul>
+      <p>
+        Copyright ⓒ 2023 Autoxplore 김하린 이지은 정희빈 조현진 All rights
+        reserved.
+      </p>
+    </footer>    -->
     <footer>
       <img src="image/logo/autoxplore_white.png" alt="로고" />
       <ul>
