@@ -284,7 +284,7 @@
     .optionCar>div>img:hover~.user-text{
         opacity: 100%;
     }
-    #askConsult{
+    #askConsult,#askConsult1{
         width: 48%;
         height: 40px;
         background-color: black;
@@ -359,6 +359,10 @@
         justify-content: center;
     }
     #askConsult>a{
+        text-decoration: none;
+        color: white;
+    }
+    #askConsult1>a{
         text-decoration: none;
         color: white;
     }
