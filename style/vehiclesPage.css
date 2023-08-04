@@ -114,7 +114,6 @@
     }
     article{
         display: inline-block;
-        margin: 0;
     }
     ul.carWrap{
         display: inline-block;
@@ -145,7 +144,8 @@
 
     span.firstImg img {
         width: 80%;
-        height: 10vh;
+        height: 10%;
+        /* height: 10vh; */
     }
 
     article img.logo{
@@ -230,12 +230,12 @@
     }
     div.section{
         display: flex;
-        flex-direction: wrap;
-        width: 100%;
+        flex-wrap: wrap;
     }
     article{
         width: 50%;
         margin: 0;
+        padding: 0;
     }
     hr{
         visibility: hidden;
@@ -444,9 +444,15 @@
         display: flex;
         flex-wrap: wrap;
     }
-    article{
+    /* article{
         width: 30%;
+        margin: auto;
+    } */
+
+    article{
+        width: 33%;
         margin: 0;
+        padding: 0;
     }
     hr{
         visibility: hidden;
