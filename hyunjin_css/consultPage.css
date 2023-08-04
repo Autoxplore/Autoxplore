@@ -219,6 +219,10 @@
         background-color: black;
         accent-color: black;
     }
+    #black1,#black1:checked{
+        background-color: black;
+        accent-color: black;
+    }
 
 
     /*----------------------------------------*/
