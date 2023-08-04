@@ -362,7 +362,7 @@
             flex-direction: row;
             justify-content: space-between;
             margin: 0 auto;
-            height: 28vh;
+            height: 20vh;
             background-color: rgb(186, 186, 186);
         }
     
@@ -373,7 +373,7 @@
     
         .newsContent img{
             width: 45vw;
-            height: 28vh;
+            height: 20vh;
         }
     
         .news button{
@@ -1149,7 +1149,7 @@ screen and (min-height:1024px) and (orientation:landscape){
         border: 1px solid rgb(255, 255, 255);
         border-radius: 10%;
         padding: 3vw;
-        margin-bottom: 1vh;
+        margin-bottom: 6vh;
     }
 
     .car3:hover{
@@ -1209,7 +1209,7 @@ screen and (min-height:1024px) and (orientation:landscape){
 
     .carContent3 button{
         width: 7vw;
-        height: 3vh;
+        height: 80px;
         margin: 5px;
         position: relative;
         background-color: rgba(245, 245, 245, 0.488);
@@ -1235,7 +1235,7 @@ screen and (min-height:1024px) and (orientation:landscape){
         flex-direction: row;
         justify-content: space-between;
         margin: 0 auto;
-        height: 30vh;
+        height: 25vh;
         background-color: rgb(186, 186, 186);
     }
 
@@ -1245,11 +1245,11 @@ screen and (min-height:1024px) and (orientation:landscape){
 
     .newsContent img{
         width:50vw;
-        height: 30vh;
+        height: 25vh;
     }
 
     .news button{
-        width: 8vw;
+        width: 10vw;
         height: 2vh;
     }
 
