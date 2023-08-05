@@ -10,4 +10,5 @@
 |---------|-------|---------|-----------|
 | 김하린 |메인 페이지 제작|MainPage.html, harin.css/MainPage.css|1-8p|
 | 이지은 |차종 선택 페이지 및 차 상세 페이지 제작|vehiclesPage.html, style/vehiclesPage.css, detailPage.html, style/detailPage.css|9-12p|
-| 조현진  |상세 페이지 및 견적 페이지 제작|buildingPage.html, hyunjin.css/buildingPage.css, consultPage.html, hyunjin.css/consultPage.css|13-22p|
+| 조현진 |상세 페이지 및 견적 페이지 제작|buildingPage.html, hyunjin.css/buildingPage.css, consultPage.html, hyunjin.css/consultPage.css|13-22p|
+| 정희빈 |마이 페이지, 이벤트 페이지, 내 모의 견적 상세페이지 제작|MyPage.html, style/MyPage.css, event.html, style/event.css, estimate.html, style/estimate.css |23-29p|
